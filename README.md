@@ -1,13 +1,10 @@
-# github_final_project
-# Simple Interest Calculator
+# This is the README.md file for the **github-final-project**
 
-## Project Overview
-This project is part of a micro-finance startup's initiative to migrate their codebase from Subversion (SVN) to Git and GitHub. As the first step in this journey, this repository hosts a simple, open-source Bash script that calculates simple interest — helping the company empower and provide financial clarity to low-income individuals.
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-## About the Application
-The Simple Interest Calculator is a lightweight Bash script that takes three user inputs:
-- **Principal amount** (P)
-- **Rate of interest** (R)
-- **Time period** (T)
-
-It then calculates the simple interest using the standard formula:
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r/100
